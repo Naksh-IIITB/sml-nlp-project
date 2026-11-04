@@ -1,0 +1,21 @@
+feature_space,representation,model_name,accuracy,macro_f1,cv_macro_f1,best_params
+contextual,distilbert_cls,rbf_svm,0.884375,0.8843495130009845,,stable_dense_defaults
+contextual,distilbert_cls,linear_svm,0.884375,0.8842001769781387,,stable_dense_defaults
+contextual,distilbert_cls,logistic_regression,0.87875,0.8787033337186345,,stable_dense_defaults
+contextual,distilbert_cls,knn,0.8775,0.8773098689655027,,stable_dense_defaults
+contextual,distilbert_cls,kmeans,0.82,0.8217486245492331,,
+contextual,distilbert_mean,rbf_svm,0.896875,0.8969419723221785,,stable_dense_defaults
+contextual,distilbert_mean,logistic_regression,0.89375,0.8936977019577638,,stable_dense_defaults
+contextual,distilbert_mean,linear_svm,0.891875,0.8918052460200302,,stable_dense_defaults
+contextual,distilbert_mean,knn,0.88125,0.8811671197772929,,stable_dense_defaults
+contextual,distilbert_mean,kmeans,0.85125,0.8516218559759207,,
+sparse,bigram_tfidf,rbf_svm,0.883125,0.8829968044340213,,default_params_for_efficiency
+sparse,bigram_tfidf,logistic_regression,0.87,0.8700595139859426,0.8648437279426009,{'logisticregression__C': 0.5}
+sparse,bigram_tfidf,linear_svm,0.856875,0.8568438222383816,0.8428320094931671,{'linearsvc__C': 0.5}
+sparse,bigram_tfidf,knn,0.388125,0.3443364756692288,,default_params_for_efficiency
+sparse,bigram_tfidf,kmeans,0.281875,0.17075954453470696,,
+sparse,unigram_bow,rbf_svm,0.870625,0.8700176541309114,,default_params_for_efficiency
+sparse,unigram_bow,logistic_regression,0.8575,0.8576189686981287,0.8480589935018411,{'logisticregression__C': 0.5}
+sparse,unigram_bow,linear_svm,0.83,0.8304214516932038,0.8111052887935997,{'linearsvc__C': 0.5}
+sparse,unigram_bow,knn,0.35375,0.28881499293640317,,default_params_for_efficiency
+sparse,unigram_bow,kmeans,0.2925,0.1838447815685027,,

@@ -1,0 +1,9 @@
+feature_space,n_components,cumulative_explained_variance
+tfidf_svd,50,0.08338240255772456
+tfidf_svd,100,0.1315063789070017
+tfidf_svd,200,0.2059570282313815
+tfidf_svd,300,0.26594246664146937
+embedding_pca,10,0.3930358719780648
+embedding_pca,25,0.5746951952500006
+embedding_pca,50,0.7200250530543166
+embedding_pca,100,0.8484026938190699

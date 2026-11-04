@@ -1,0 +1,11 @@
+feature_space,representation,model_name,accuracy,macro_f1,cv_macro_f1,best_params
+reduced,embedding_pca_100,rbf_svm,0.891875,0.8917220789660907,,stable_dense_defaults
+reduced,embedding_pca_100,logistic_regression,0.89,0.8899813042601605,,stable_dense_defaults
+reduced,embedding_pca_100,linear_svm,0.885,0.8848783178240672,,stable_dense_defaults
+reduced,embedding_pca_100,knn,0.879375,0.8793930713632023,,stable_dense_defaults
+reduced,embedding_pca_100,kmeans,0.851875,0.8522580008346486,,
+reduced,tfidf_svd_300,rbf_svm,0.883125,0.8829183806067389,,stable_dense_defaults
+reduced,tfidf_svd_300,linear_svm,0.88,0.8798185969314332,,stable_dense_defaults
+reduced,tfidf_svd_300,logistic_regression,0.8725,0.8722410238722937,,stable_dense_defaults
+reduced,tfidf_svd_300,knn,0.741875,0.7372122287250843,,stable_dense_defaults
+reduced,tfidf_svd_300,kmeans,0.41125,0.31873163362261203,,
